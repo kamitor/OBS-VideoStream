@@ -1,2 +1,66 @@
 # OBS-VideoStream
 Setting up Video stream for FORK
+
+#Checklist Equipment
+ - Q2n Camera
+ - LAN cables, LONG CABLES
+ - Router
+ - Several Laptops
+ - Memory Stick with software
+ - HDMI Cables, Several
+ - HDMI to VGA converters, Several, just in case
+ - Microphone at location
+ - Audio Mixing Table
+ - Extra 1.5 V AA Batteries for the Q2N
+ - Clicker
+ - Micro USB cable for the camera
+
+# Software Links
+
+On the Render Server
+
+> Newtek tools
+https://www.newtek.com/ndi/tools/#download-tools
+
+> OBS Studio
+https://cdn-fastly.obsproject.com/downloads/OBS-Studio-22.0.2-Full-Installer-x64.exe
+
+On the Client: 
+
+> OBS Studio
+> NewTek tools
+
+On the client for the webcam
+
+> OBS Studio
+> NewTek tools
+> Q2n Driver
+https://www.zoom.co.jp/sites/default/files/products/downloads/software/E_Q2n_WebCamDriver_win_v1.0.0.4.zip
+
+# Setup Strategy
+
+
+
+# How to configure OBS
+Setup the Camera First 
+Install the OBS Software from link above, Install the newtek tools from above, RESTART.
+Launch the OBS software, as administrator
+
+
+
+# Setup of the Camera
+- Make sure it is on a stable platform
+- Make sure it can see the Presenter ( or some of the crouwd )
+- Attach Micro USB cable to the computer and the camera:
+    The Camera should now Automatically boot up with a USB Sign
+        If it does not: Press the PLAY button on the camera
+    Select webcam mode: Press the RED "record" button
+    The camera should now be availble in the device manager as well as to be added in the OBS Studio
+    
+
+
+# Possible Problems
+
+The Q2n Camera Shuts off Randomly
+ - Did you make sure it has the firmware update? It needs to be V1.1 or higher
+ - Make sure the Computer you're attaching it to has the software installed. It should pop up in the device manger 

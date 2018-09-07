@@ -41,6 +41,10 @@ https://www.zoom.co.jp/sites/default/files/products/downloads/software/E_Q2n_Web
 
 # Setup Strategy
 
+See Diagram on Screen Setup:
+See Diagram on Network Setup:
+See Diagram on Floor Setup:
+
 Screenshot:
 
 

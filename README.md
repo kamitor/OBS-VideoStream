@@ -91,9 +91,13 @@ Link to Image:
 
 # Things to do
 
+- Create several Scenes
 - Meeting with marieke
 - Completing things to test
-- Doing a full test run
+- Doing a full test run 1.0
+- Creating Network Diagram
+- Floor Diagram
+- Creating Screen Setup 
 - Finishing documentation : 
     - Adding screenshots : Dum Dum Version
     - Adding backup of software on Nextcloud

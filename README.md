@@ -1,10 +1,12 @@
 # OBS-VideoStream
 Setting up Video stream for FORK
 
-#Checklist Equipment
+# Checklist Equipment
  - Q2n Camera
+ - SD Card
  - LAN cables, LONG CABLES
- - Router
+ - Router                       
+ - Switch x 2 
  - Several Laptops
  - Memory Stick with software
  - HDMI Cables, Several
@@ -39,6 +41,7 @@ https://www.zoom.co.jp/sites/default/files/products/downloads/software/E_Q2n_Web
 
 # Setup Strategy
 
+Screenshot:
 
 
 # How to configure OBS
@@ -46,6 +49,14 @@ Setup the Camera First
 Install the OBS Software from link above, Install the newtek tools from above, RESTART.
 Launch the OBS software, as administrator
 
+# SetupPowerpoint
+
+
+- Start the OBS as administrator
+
+> OBS Select Display capture: 
+> Select output 
+Blank screen ? Go to problems
 
 
 # Setup of the Camera
@@ -56,11 +67,41 @@ Launch the OBS software, as administrator
         If it does not: Press the PLAY button on the camera
     Select webcam mode: Press the RED "record" button
     The camera should now be availble in the device manager as well as to be added in the OBS Studio
-    
+- In the ods studio Select TOOLS - > NDI output settings. Tick box main output: Give it a name like "Q2N Audio stuff"
 
+    
+# Setup of Render machine
+- Load image of "stream starting soon"
+Link to Image:
+- Setup Scene Transition (STUDIO) 
+- Setup input: 
+    - connect Camera Trough NDI input: 
+
+
+
+# things to test
+
+ - Different Coding Schemes
+ - Skype Setup
+ - Multipule Audio Setup
+
+# Things to do
+
+- Meeting with marieke
+- Completing things to test
+- Doing a full test run
+- Finishing documentation : 
+    - Adding screenshots : Dum Dum Version
+    - Adding backup of software on Nextcloud
 
 # Possible Problems
 
 The Q2n Camera Shuts off Randomly
  - Did you make sure it has the firmware update? It needs to be V1.1 or higher
  - Make sure the Computer you're attaching it to has the software installed. It should pop up in the device manger 
+
+The Display gives a Blank Screen
+Option 1:
+https://www.quora.com/How-do-I-fix-a-display-capture-that-only-displays-and-records-a-black-screen-in-OBS
+Option 2:
+you did not start the Obs as administrator

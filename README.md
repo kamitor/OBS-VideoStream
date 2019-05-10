@@ -113,3 +113,13 @@ Option 1:
 https://www.quora.com/How-do-I-fix-a-display-capture-that-only-displays-and-records-a-black-screen-in-OBS
 Option 2:
 you did not start the Obs as administrator
+
+# OBS Settings
+
+Download the jason file in the respetorie and import it in OBS by clicking in the top bar on scene collection and press import
+Dubble click on the cameras to check if the right came is being used if not select right camera
+
+For the hardware check if aux cable is plugged in and is on at the split box at the poduim and on the control pannel(it is marked aux)
+Also for the microphone you will see a split box with all the audio plugs called €ordial remove the plug of the microphone and plug in the
+plug of the mixpanel(plug in main out links) and plug the microphone in the mixpanel also put in power and the cabel to the usb.
+There also is a HDMI cable at the speaker that is the beamer (WARNING DO NOT LET IT GO TO SLEEP MODE IT WILL NOT GO ON AGAIN)
